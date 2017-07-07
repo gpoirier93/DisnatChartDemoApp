@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90191D9AD1E141F02402C053 /* Pods_DisnatChartsDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A3B0A2F52B7903D37081E4 /* Pods_DisnatChartsDemoApp.framework */; };
+		F05C8E961F0FC08000D548AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C8E951F0FC08000D548AB /* main.m */; };
+		F05C8E991F0FC08000D548AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C8E981F0FC08000D548AB /* AppDelegate.m */; };
+		F05C8E9C1F0FC08000D548AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C8E9B1F0FC08000D548AB /* ViewController.m */; };
+		F05C8E9F1F0FC08000D548AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05C8E9D1F0FC08000D548AB /* Main.storyboard */; };
+		F05C8EA11F0FC08000D548AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05C8EA01F0FC08000D548AB /* Assets.xcassets */; };
+		F05C8EA41F0FC08000D548AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05C8EA21F0FC08000D548AB /* LaunchScreen.storyboard */; };
+		F05C8EAD1F0FC96200D548AB /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C8EAC1F0FC96200D548AB /* LineChartViewController.m */; };
+		F05C8EB01F10139100D548AB /* datapoints-day.json in Resources */ = {isa = PBXBuildFile; fileRef = F05C8EAF1F10139100D548AB /* datapoints-day.json */; };
+		F0A15F471F1014D20090C3F1 /* DataPointFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A15F461F1014D20090C3F1 /* DataPointFeed.m */; };
+		F0A15F4A1F10164B0090C3F1 /* DateValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A15F491F10164B0090C3F1 /* DateValueFormatter.m */; };
+		F0A15F4C1F101C300090C3F1 /* datapoints-max.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A15F4B1F101C300090C3F1 /* datapoints-max.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A437938DFD5BA24137EF0F6 /* Pods-DisnatChartsDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisnatChartsDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DisnatChartsDemoApp/Pods-DisnatChartsDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		A7A3B0A2F52B7903D37081E4 /* Pods_DisnatChartsDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisnatChartsDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05C8E911F0FC08000D548AB /* DisnatChartsDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisnatChartsDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05C8E951F0FC08000D548AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F05C8E971F0FC08000D548AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F05C8E981F0FC08000D548AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F05C8E9A1F0FC08000D548AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F05C8E9B1F0FC08000D548AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F05C8E9E1F0FC08000D548AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F05C8EA01F0FC08000D548AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F05C8EA31F0FC08000D548AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F05C8EA51F0FC08000D548AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05C8EAB1F0FC96200D548AB /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		F05C8EAC1F0FC96200D548AB /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
+		F05C8EAF1F10139100D548AB /* datapoints-day.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "datapoints-day.json"; sourceTree = "<group>"; };
+		F0A15F451F1014D20090C3F1 /* DataPointFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPointFeed.h; sourceTree = "<group>"; };
+		F0A15F461F1014D20090C3F1 /* DataPointFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPointFeed.m; sourceTree = "<group>"; };
+		F0A15F481F10164B0090C3F1 /* DateValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateValueFormatter.h; sourceTree = "<group>"; };
+		F0A15F491F10164B0090C3F1 /* DateValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateValueFormatter.m; sourceTree = "<group>"; };
+		F0A15F4B1F101C300090C3F1 /* datapoints-max.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "datapoints-max.json"; sourceTree = "<group>"; };
+		F61F964CDD88DF78CEF9228F /* Pods-DisnatChartsDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisnatChartsDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DisnatChartsDemoApp/Pods-DisnatChartsDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05C8E8E1F0FC07F00D548AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90191D9AD1E141F02402C053 /* Pods_DisnatChartsDemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A279654373F0FA12B78C6F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F61F964CDD88DF78CEF9228F /* Pods-DisnatChartsDemoApp.debug.xcconfig */,
+				6A437938DFD5BA24137EF0F6 /* Pods-DisnatChartsDemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F86C7D9896C22B71558E822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3B0A2F52B7903D37081E4 /* Pods_DisnatChartsDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F05C8E881F0FC07F00D548AB = {
+			isa = PBXGroup;
+			children = (
+				F05C8E931F0FC08000D548AB /* DisnatChartsDemoApp */,
+				F05C8E921F0FC08000D548AB /* Products */,
+				2A279654373F0FA12B78C6F5 /* Pods */,
+				7F86C7D9896C22B71558E822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F05C8E921F0FC08000D548AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05C8E911F0FC08000D548AB /* DisnatChartsDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05C8E931F0FC08000D548AB /* DisnatChartsDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F05C8E971F0FC08000D548AB /* AppDelegate.h */,
+				F05C8E981F0FC08000D548AB /* AppDelegate.m */,
+				F05C8E9A1F0FC08000D548AB /* ViewController.h */,
+				F05C8E9B1F0FC08000D548AB /* ViewController.m */,
+				F05C8EAB1F0FC96200D548AB /* LineChartViewController.h */,
+				F05C8EAC1F0FC96200D548AB /* LineChartViewController.m */,
+				F05C8E9D1F0FC08000D548AB /* Main.storyboard */,
+				F05C8EA01F0FC08000D548AB /* Assets.xcassets */,
+				F05C8EA21F0FC08000D548AB /* LaunchScreen.storyboard */,
+				F05C8EA51F0FC08000D548AB /* Info.plist */,
+				F05C8E941F0FC08000D548AB /* Supporting Files */,
+				F0A15F451F1014D20090C3F1 /* DataPointFeed.h */,
+				F0A15F461F1014D20090C3F1 /* DataPointFeed.m */,
+				F0A15F481F10164B0090C3F1 /* DateValueFormatter.h */,
+				F0A15F491F10164B0090C3F1 /* DateValueFormatter.m */,
+			);
+			path = DisnatChartsDemoApp;
+			sourceTree = "<group>";
+		};
+		F05C8E941F0FC08000D548AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05C8EAF1F10139100D548AB /* datapoints-day.json */,
+				F0A15F4B1F101C300090C3F1 /* datapoints-max.json */,
+				F05C8E951F0FC08000D548AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05C8E901F0FC07F00D548AB /* DisnatChartsDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05C8EA81F0FC08000D548AB /* Build configuration list for PBXNativeTarget "DisnatChartsDemoApp" */;
+			buildPhases = (
+				31246B017A62D39D7C236C25 /* [CP] Check Pods Manifest.lock */,
+				F05C8E8D1F0FC07F00D548AB /* Sources */,
+				F05C8E8E1F0FC07F00D548AB /* Frameworks */,
+				F05C8E8F1F0FC07F00D548AB /* Resources */,
+				FD0827B065FAA0A0DC11F306 /* [CP] Embed Pods Frameworks */,
+				50BA61835988C9B7D114529F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisnatChartsDemoApp;
+			productName = DisnatChartsDemoApp;
+			productReference = F05C8E911F0FC08000D548AB /* DisnatChartsDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05C8E891F0FC07F00D548AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Desjardins;
+				TargetAttributes = {
+					F05C8E901F0FC07F00D548AB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = KM78WF595D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F05C8E8C1F0FC07F00D548AB /* Build configuration list for PBXProject "DisnatChartsDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F05C8E881F0FC07F00D548AB;
+			productRefGroup = F05C8E921F0FC08000D548AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05C8E901F0FC07F00D548AB /* DisnatChartsDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F05C8E8F1F0FC07F00D548AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05C8EA41F0FC08000D548AB /* LaunchScreen.storyboard in Resources */,
+				F05C8EA11F0FC08000D548AB /* Assets.xcassets in Resources */,
+				F0A15F4C1F101C300090C3F1 /* datapoints-max.json in Resources */,
+				F05C8EB01F10139100D548AB /* datapoints-day.json in Resources */,
+				F05C8E9F1F0FC08000D548AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31246B017A62D39D7C236C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50BA61835988C9B7D114529F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DisnatChartsDemoApp/Pods-DisnatChartsDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0827B065FAA0A0DC11F306 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DisnatChartsDemoApp/Pods-DisnatChartsDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05C8E8D1F0FC07F00D548AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A15F4A1F10164B0090C3F1 /* DateValueFormatter.m in Sources */,
+				F05C8E9C1F0FC08000D548AB /* ViewController.m in Sources */,
+				F0A15F471F1014D20090C3F1 /* DataPointFeed.m in Sources */,
+				F05C8EAD1F0FC96200D548AB /* LineChartViewController.m in Sources */,
+				F05C8E991F0FC08000D548AB /* AppDelegate.m in Sources */,
+				F05C8E961F0FC08000D548AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F05C8E9D1F0FC08000D548AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05C8E9E1F0FC08000D548AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F05C8EA21F0FC08000D548AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05C8EA31F0FC08000D548AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F05C8EA61F0FC08000D548AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F05C8EA71F0FC08000D548AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F05C8EA91F0FC08000D548AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61F964CDD88DF78CEF9228F /* Pods-DisnatChartsDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KM78WF595D;
+				INFOPLIST_FILE = DisnatChartsDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uni.desjardins.DisnatChartsDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F05C8EAA1F0FC08000D548AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A437938DFD5BA24137EF0F6 /* Pods-DisnatChartsDemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KM78WF595D;
+				INFOPLIST_FILE = DisnatChartsDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uni.desjardins.DisnatChartsDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05C8E8C1F0FC07F00D548AB /* Build configuration list for PBXProject "DisnatChartsDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05C8EA61F0FC08000D548AB /* Debug */,
+				F05C8EA71F0FC08000D548AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05C8EA81F0FC08000D548AB /* Build configuration list for PBXNativeTarget "DisnatChartsDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05C8EA91F0FC08000D548AB /* Debug */,
+				F05C8EAA1F0FC08000D548AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F05C8E891F0FC07F00D548AB /* Project object */;
+}

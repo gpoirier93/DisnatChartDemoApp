@@ -1,0 +1,6 @@
+framework module Pods_DisnatChartsDemoApp {
+  umbrella header "Pods-DisnatChartsDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
